@@ -1,0 +1,23 @@
+Drill report for /home/miceuz/Xaltura/ble-soil-moisture-sensor/ble-soil-moisture-sensor-pannel.kicad_pcb
+Created on Fri 11 Nov 2016 08:13:12 PM EET
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'ble-soil-moisture-sensor-pannel.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (312 holes)
+    T2  1,02mm  0,040"  (12 holes)
+
+    Total plated holes count 324
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
