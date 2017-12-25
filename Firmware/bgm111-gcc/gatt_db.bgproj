@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project>
+
+    <gatt out="gatt_db.c" header="gatt_db.h" prefix="gattdb_">
+
+		<!-- Generic Access Service -->
+		<!-- https://developer.bluetooth.org/gatt/services/Pages/ServiceViewer.aspx?u=org.bluetooth.service.generic_access.xml -->
+        <service uuid="1800"  advertise="true">
+            <description>Generic Access Profile</description>
+            <!-- Device Name -->
+			<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.gap.device_name.xml -->
+            <characteristic uuid="2a00" id="device_name">
+                <properties read="true" const="true"/>
+                <value>Demo device</value>
+            </characteristic>
+            <!-- Appearance -->
+			<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.gap.appearance.xml -->
+            <characteristic uuid="2a01">
+                <properties read="true" const="true" />
+                <value type="hex">0</value>
+            </characteristic>
+        </service>
+
+		<!-- Device Information Service -->
+		<!-- https://developer.bluetooth.org/gatt/services/Pages/ServiceViewer.aspx?u=org.bluetooth.service.device_information.xml -->
+        <service type="primary" uuid="180A">
+            <description>Device Information</description>
+            <!-- Manufacturer Name String -->
+			<!-- https://developer.bluetooth.org/gatt/characteristics/Pages/CharacteristicViewer.aspx?u=org.bluetooth.characteristic.manufacturer_name_string.xml -->
+            <characteristic uuid="2A29" id="manufacturer_name">
+                <properties read="true" const="true" />
+                <value>Catnip Electronics</value>
+            </characteristic>
+            
+            <!-- Model Number String -->
+			<!-- https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.model_number_string.xml -->
+            <characteristic uuid="2A24" id="model_number">
+                <properties read="true" const="true" />
+                <value>v3</value>
+            </characteristic>
+        </service>
+		
+		<service uuid="180F">
+			<description>Battery Service</description>
+			<characteristic uuid="2A19" id="battery_level">
+				<description>Battery Level</description>
+				<properties read="true" />
+				<value type="user" lenght="1" />
+			</characteristic>
+		</service>
+
+		<service uuid="a495ff20-c5b1-4b44-b512-1370f02d74de">
+
+			<description>functions</description>
+
+			<characteristic uuid="d8fd6aee-8611-11e6-ae22-56b6b6499612" id="battery_voltage">
+				<description>Battery voltage</description>
+				<properties notify="true" read="true"/>
+				<value length="2" type="user" />
+			</characteristic>
+
+			<characteristic uuid="d8fd6aee-8611-11e6-ae22-56b6b6499613" id="battery_low">
+				<description>Battery low</description>
+				<properties read="true" write="true"/>
+				<value length="1" type="user"/>
+			</characteristic>
+
+			<characteristic uuid="a495ff21-c5b1-4b44-b512-1370f02d74df" id="reset">
+				<description>Write to reset</description>
+				<properties write="true" />
+				<value length="1" type="user" />
+			</characteristic>
+
+			<characteristic uuid="a495ff21-c5b1-4b44-b512-1370f02d74ff" id="disconnect">
+				<description>Disconnect</description>
+				<properties write="true" />
+				<value length="1" type="user" />
+			</characteristic>
+
+		</service>
+
+    </gatt>
+
+</project>

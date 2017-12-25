@@ -1,0 +1,10 @@
+device_name 3
+manufacturer_name 8
+model_number 10
+battery_level 13
+soil_moisture 17
+battery_voltage 20
+battery_low 24
+temperature 27
+reset 30
+disconnect 33
