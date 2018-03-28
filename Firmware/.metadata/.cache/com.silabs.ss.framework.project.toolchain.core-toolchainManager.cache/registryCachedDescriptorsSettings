@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="$registry.cache.settings">
+    <properties key="prevKnownDetectorClasses" value="com.silabs.ss.tool.toolchain.bgbuild.internal.BGBuildToolchainDetector com.ember.workbench.devtool.DefaultWirelessToolchainDetector com.silabs.ss.tool.ide.arm.internal.toolchain.gnu.cdt.support.GNUARMToolchainDetector"/>
+  </descriptors>
+</model:MDescriptors>

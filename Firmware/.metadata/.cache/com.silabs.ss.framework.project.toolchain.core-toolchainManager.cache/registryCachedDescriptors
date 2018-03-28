@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt" label="GNU ARM v4.8.3" description="&lt;p>GNU ARM Tools from Linaro&lt;/p>&lt;p>&lt;tt>arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 4.8.3 20131129 (release) [ARM/embedded-4_8-branch revision 205641]&lt;/tt>&lt;/p>&lt;p>&lt;tt>arm-none-eabi-g++ (GNU Tools for ARM Embedded Processors) 4.8.3 20131129 (release) [ARM/embedded-4_8-branch revision 205641]&lt;/tt>&lt;/p>&lt;p>&lt;tt>GNU assembler (GNU Tools for ARM Embedded Processors) 2.23.2.20131129&lt;/tt>&lt;/p>&lt;p>&lt;tt>GNU ld (GNU Tools for ARM Embedded Processors) 2.23.2.20131129&lt;/tt>&lt;/p>&lt;p>&lt;tt>GNU ar (GNU Tools for ARM Embedded Processors) 2.23.2.20131129&lt;/tt>&lt;/p>">
+    <properties key="core.version" value="4.8.3.20131129"/>
+    <properties key="core.category" value="ARM (32-bit)"/>
+    <properties key="core.installationPath" value="file:/home/miceuz/Downloads/SimplicityStudio_v4/developer/toolchains/gnu_arm/4.8_2013q4/"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="core.bundled" value="true"/>
+    <properties key="toolchain.cdtToolchainId" value="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe"/>
+    <properties key="toolchain.cdtExeProjectTypeId" value="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.exe"/>
+    <properties key="toolchain.cdtStaticLibProjectTypeId" value="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.lib"/>
+    <properties key="toolchain.cdtSupportsParallelBuild" value="true"/>
+    <properties key="toolchain.cdtImportableToolchains" value="com.crt.advproject"/>
+    <properties key="toolchain.toolchainLegacyNameMatching" value="gnu gcc"/>
+    <properties key="core.partCompatibility" value="mcu.arm.*"/>
+    <properties key="core.preferred" value="true"/>
+    <properties key="core.autoEnable" value="true"/>
+    <properties key="hardware.name" value="gcc"/>
+    <properties key="core.detected" value="true"/>
+  </descriptors>
+  <descriptors name="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt" label="GNU ARM v4.9.3" description="&lt;p>GNU ARM Tools from Linaro&lt;/p>&lt;p>&lt;tt>arm-none-eabi-gcc (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977]&lt;/tt>&lt;/p>&lt;p>&lt;tt>arm-none-eabi-g++ (GNU Tools for ARM Embedded Processors) 4.9.3 20150529 (release) [ARM/embedded-4_9-branch revision 227977]&lt;/tt>&lt;/p>&lt;p>&lt;tt>GNU assembler (GNU Tools for ARM Embedded Processors) 2.24.0.20150921&lt;/tt>&lt;/p>&lt;p>&lt;tt>GNU ld (GNU Tools for ARM Embedded Processors) 2.24.0.20150921&lt;/tt>&lt;/p>&lt;p>&lt;tt>GNU ar (GNU Tools for ARM Embedded Processors) 2.24.0.20150921&lt;/tt>&lt;/p>">
+    <properties key="core.version" value="4.9.3.20150529"/>
+    <properties key="core.category" value="ARM (32-bit)"/>
+    <properties key="core.installationPath" value="file:/home/miceuz/Downloads/SimplicityStudio_v4/developer/toolchains/gnu_arm/4.9_2015q3/"/>
+    <properties key="core.builtin" value="true"/>
+    <properties key="core.bundled" value="true"/>
+    <properties key="toolchain.cdtToolchainId" value="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe"/>
+    <properties key="toolchain.cdtExeProjectTypeId" value="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.exe"/>
+    <properties key="toolchain.cdtStaticLibProjectTypeId" value="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.lib"/>
+    <properties key="toolchain.cdtSupportsParallelBuild" value="true"/>
+    <properties key="toolchain.cdtImportableToolchains" value="com.crt.advproject"/>
+    <properties key="toolchain.toolchainLegacyNameMatching" value="gnu gcc"/>
+    <properties key="core.partCompatibility" value="mcu.arm.*"/>
+    <properties key="core.preferred" value="true"/>
+    <properties key="core.autoEnable" value="true"/>
+    <properties key="hardware.name" value="gcc"/>
+    <properties key="core.detected" value="true"/>
+  </descriptors>
+</model:MDescriptors>

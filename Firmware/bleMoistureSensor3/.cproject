@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" moduleId="org.eclipse.cdt.core.settings" name="GNU ARM v4.9.3 - Default">
+				<macros>
+					<stringMacro name="StudioSdkPath" type="VALUE_PATH_DIR" value="${StudioSdkPathFromID:com.silabs.sdk.stack.super:2.2.2._897871742}"/>
+					<stringMacro name="StudioToolchainPath" type="VALUE_PATH_DIR" value="${StudioToolchainPathFromID:com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529}"/>
+				</macros>
+				<externalSettings/>
+				<extensions>
+					<extension id="com.silabs.ss.framework.debugger.core.HEX" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.EBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.GBL" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.BIN" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.silabs.ss.framework.debugger.core.S37" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GNU_ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule buildConfig.needsApplyStock="true" buildConfig.stockConfigId="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" cppBuildConfig.builtinIncludes="" cppBuildConfig.builtinLibraryFiles="" cppBuildConfig.builtinLibraryNames="m" cppBuildConfig.builtinLibraryObjects="" cppBuildConfig.builtinLibraryPaths="" cppBuildConfig.builtinMacros="EFR32BG1B232F256GM48 EFR32BG1B232F256GM48" moduleId="com.silabs.ss.framework.ide.project.core.cpp" projectCommon.referencedModules="[{&quot;builtinExcludes&quot;:[],&quot;builtinSources&quot;:[],&quot;module&quot;:&quot;&lt;project:MModule xmlns:project=\&quot;http://www.silabs.com/ss/Project.ecore\&quot; builtin=\&quot;true\&quot; id=\&quot;com.silabs.module.template.external.com.silabs.sdk.stack.super.ble.Bluetooth SDK.2.8.1._-1021044539.efr32-base\&quot;&gt;\n  &lt;inclusions pattern=\&quot;.*\&quot;/&gt;\n&lt;/project:MModule&gt;&quot;,&quot;builtin&quot;:true}]" projectCommon.savedStockVariables="{&quot;pathVar_RUNTEST&quot;:&quot;$(sdkInstallationPath)/tool/runtest&quot;,&quot;pathVar_BEANSHELL&quot;:&quot;$(sdkInstallationPath)/tool/beanshell&quot;,&quot;pathVar_CMSIS&quot;:&quot;$(sdkInstallationPath)/platform/CMSIS&quot;,&quot;pathVar_APP_INTERNAL&quot;:&quot;$(sdkInstallationPath)/app/internal&quot;,&quot;pathVar_RAIL_LIB&quot;:&quot;$(sdkInstallationPath)/platform/radio/rail_lib&quot;,&quot;pathVar_DEVICE&quot;:&quot;$(sdkInstallationPath)/platform/Device&quot;,&quot;pathVar_CSLIB_SRC&quot;:&quot;$(sdkInstallationPath)/platform/middleware/cslib_src&quot;,&quot;pathVar_TIMAC&quot;:&quot;$(sdkInstallationPath)/util/third_party/timac&quot;,&quot;pathVar_BLUETOOTH_PROTOCOL&quot;:&quot;$(sdkInstallationPath)/protocol/bluetooth&quot;,&quot;pathVar_ESF_COMMON&quot;:&quot;$(sdkInstallationPath)/app/esf_common&quot;,&quot;pathVar_MICRIUM_OS&quot;:&quot;$(sdkInstallationPath)/platform/micrium_os&quot;,&quot;pathVar_BASE&quot;:&quot;$(sdkInstallationPath)/platform/base&quot;,&quot;pathVar_KIT&quot;:&quot;$(sdkInstallationPath)/hardware/kit&quot;,&quot;pathVar_HALCONFIG&quot;:&quot;$(sdkInstallationPath)/platform/halconfig&quot;,&quot;pathVar_ZIGBEE&quot;:&quot;$(sdkInstallationPath)/protocol/zigbee&quot;,&quot;pathVar_GLIB&quot;:&quot;$(sdkInstallationPath)/platform/middleware/glib&quot;,&quot;pathVar_MICRIUM_OS_EXAMPLE&quot;:&quot;$(sdkInstallationPath)/app/micrium_os_example&quot;,&quot;pathVar_USBXPRESS&quot;:&quot;$(sdkInstallationPath)/platform/middleware/usbxpress&quot;,&quot;pathVar_PRODUCTION_BOOTLOADER&quot;:&quot;$(sdkInstallationPath)/platform/production_bootloader&quot;,&quot;pathVar_TCMGR&quot;:&quot;$(sdkInstallationPath)/tool/tcmgr&quot;,&quot;pathVar_MICRIUM_COMPONENTS&quot;:&quot;$(sdkInstallationPath)&quot;,&quot;pathVar_EMWIN&quot;:&quot;$(sdkInstallationPath)/util/third_party&quot;,&quot;pathVar_CJSON&quot;:&quot;$(sdkInstallationPath)/util/third_party/cjson&quot;,&quot;pathVar_USB_GECKO&quot;:&quot;$(sdkInstallationPath)/platform/middleware/usb_gecko&quot;,&quot;pathVar_SCRIPT&quot;:&quot;$(sdkInstallationPath)/tool/script&quot;,&quot;pathVar_RADIO_CONFIGURATOR&quot;:&quot;$(sdkInstallationPath)/platform/tool/efr32_radio_configurator&quot;,&quot;pathVar_STUDIO&quot;:&quot;$(sdkInstallationPath)/.studio&quot;,&quot;pathVar_APPLE_HOMEKIT&quot;:&quot;$(sdkInstallationPath)/app/apple_homekit&quot;,&quot;pathVar_MCU_EXAMPLE&quot;:&quot;$(sdkInstallationPath)/app/mcu_example&quot;,&quot;pathVar_CUSTOMER_BOARD&quot;:&quot;$(sdkInstallationPath)/hardware/customer_board&quot;,&quot;pathVar_UNITY&quot;:&quot;$(sdkInstallationPath)/util/third_party/unity&quot;,&quot;pathVar_EXPERIMENTAL&quot;:&quot;$(sdkInstallationPath)/app/experimental&quot;,&quot;pathVar_REFERENCE_DESIGN&quot;:&quot;$(sdkInstallationPath)/hardware/reference_design&quot;,&quot;pathVar_VSRPC-LIB&quot;:&quot;$(sdkInstallationPath)/tool/vsrpc-lib&quot;,&quot;pathVar_FATFS&quot;:&quot;$(sdkInstallationPath)/util/third_party/fatfs&quot;,&quot;pathVar_SENSOR_SI114XHRM&quot;:&quot;$(sdkInstallationPath)/util/silicon_labs/sensor_si114xhrm&quot;,&quot;pathVar_IEC60335_CLASSB&quot;:&quot;$(sdkInstallationPath)/util/third_party/iec60335_classb&quot;,&quot;pathVar_MICRIUM&quot;:&quot;$(sdkInstallationPath)/util/third_party/micrium&quot;,&quot;pathVar_EMTOOL&quot;:&quot;$(sdkInstallationPath)/tool/emtool&quot;,&quot;pathVar_BLUETOOTH_APP&quot;:&quot;$(sdkInstallationPath)/app/bluetooth&quot;,&quot;pathVar_JAM&quot;:&quot;$(sdkInstallationPath)/tool/jam&quot;,&quot;pathVar_EMDRV&quot;:&quot;$(sdkInstallationPath)/platform/emdrv&quot;,&quot;pathVar_SILABS_CORE&quot;:&quot;$(sdkInstallationPath)/util/silicon_labs/silabs_core&quot;,&quot;pathVar_CSLIB&quot;:&quot;$(sdkInstallationPath)/platform/middleware/cslib&quot;,&quot;pathVar_KEIL_RTX&quot;:&quot;$(sdkInstallationPath)/util/third_party/keil_rtx&quot;,&quot;pathVar_APACHE_COMMONS&quot;:&quot;$(sdkInstallationPath)/tool/apache_commons&quot;,&quot;pathVar_JENKINS&quot;:&quot;$(sdkInstallationPath)/tool/jenkins&quot;,&quot;pathVar_MBEDTLS&quot;:&quot;$(sdkInstallationPath)/util/third_party/mbedtls&quot;,&quot;pathVar_BOOTLOADER&quot;:&quot;$(sdkInstallationPath)/platform/bootloader&quot;,&quot;pathVar_FLEX&quot;:&quot;$(sdkInstallationPath)/protocol/flex&quot;,&quot;pathVar_PLUGIN&quot;:&quot;$(sdkInstallationPath)/util/plugin&quot;,&quot;pathVar_FREERTOS&quot;:&quot;$(sdkInstallationPath)/util/third_party/freertos&quot;,&quot;pathVar_LWIP&quot;:&quot;$(sdkInstallationPath)/util/third_party/lwip&quot;,&quot;pathVar_LIBCOAP&quot;:&quot;$(sdkInstallationPath)/util/third_party/libcoap&quot;,&quot;pathVar_PAHOMQTT&quot;:&quot;$(sdkInstallationPath)/util/third_party/paho.mqtt.c&quot;,&quot;pathVar_IDE_SUPPORT&quot;:&quot;$(sdkInstallationPath)/tool/ide_support&quot;,&quot;pathVar_CODE_GENERATOR&quot;:&quot;$(sdkInstallationPath)/tool/code_generator&quot;,&quot;pathVar_EMLIB&quot;:&quot;$(sdkInstallationPath)/platform/emlib&quot;,&quot;pathVar_THREAD&quot;:&quot;$(sdkInstallationPath)/protocol/thread&quot;,&quot;pathVar_HWCONFDATA&quot;:&quot;$(sdkInstallationPath)/platform/hwconf_data&quot;}" projectCommon.toolchainId="com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" projectCommon.userSettings="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#10;&lt;project name=&quot;com.silabs.ember.stack.ble.addition&quot; propertyScope=&quot;project&quot; contentRoot=&quot;.&quot;&gt;&#10;  &lt;file name=&quot;gatt.xml&quot; uri=&quot;studio:/project/gatt.xml&quot;/&gt;&#10;  &lt;file name=&quot;gatt_db.h&quot; uri=&quot;studio:/project/gatt_db.h&quot;/&gt;&#10;  &lt;file name=&quot;gatt_db.c&quot; uri=&quot;studio:/project/gatt_db.c&quot;/&gt;&#10;  &lt;file name=&quot;BgBuild_Log.txt&quot; uri=&quot;studio:/project/BgBuild_Log.txt&quot;/&gt;&#10;  &lt;file name=&quot;init_app.c&quot; uri=&quot;studio:/project/init_app.c&quot;/&gt;&#10;  &lt;file name=&quot;hal-config-app-common.h&quot; uri=&quot;studio:/project/hal-config-app-common.h&quot;/&gt;&#10;  &lt;file name=&quot;init_mcu.c&quot; uri=&quot;studio:/project/init_mcu.c&quot;/&gt;&#10;  &lt;file name=&quot;create_bl_files.sh&quot; uri=&quot;studio:/project/create_bl_files.sh&quot;/&gt;&#10;  &lt;file name=&quot;init_board.c&quot; uri=&quot;studio:/project/init_board.c&quot;/&gt;&#10;  &lt;file name=&quot;ble-configuration.h&quot; uri=&quot;studio:/project/ble-configuration.h&quot;/&gt;&#10;  &lt;includePath uri=&quot;file:.&quot;/&gt;&#10;  &lt;macroDefinition name=&quot;HAL_CONFIG&quot; value=&quot;1&quot;/&gt;&#10;  &lt;macroDefinition name=&quot;__HEAP_SIZE&quot; value=&quot;0xD00&quot;/&gt;&#10;  &lt;macroDefinition name=&quot;__STACK_SIZE&quot; value=&quot;0x800&quot;/&gt;&#10;  &lt;toolOption partCompatibility=&quot;.*&quot; toolId=&quot;iar.arm.toolchain.linker.v5.4.0&quot; optionId=&quot;iar.arm.toolchain.linker.option.icfFile.v5.4.0&quot; value=&quot;${workspace_loc:/${ProjName}/efr32bg1b232f256gm48.icf}&quot;/&gt;&#10;  &lt;toolOption toolchainCompatibility=&quot;gcc&quot; toolId=&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe&quot; optionId=&quot;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script&quot; value=&quot;${workspace_loc:/${ProjName}/efr32bg1b232f256gm48.ld}&quot;/&gt;&#10;&lt;/project&gt;&#10;"/>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe" description="" id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529" name="GNU ARM v4.9.3 - Default" parent="com.silabs.ide.si32.gcc.cdt.managedbuild.config.gnu.exe">
+					<folderInfo id="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529." name="/" resourcePath="">
+						<toolChain id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe.2044236018" name="Si32 GNU ARM" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.exe">
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script.1868028079" name="Linker Script:" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.script" value="${workspace_loc:/${ProjName}/efr32bg1b232f256gm48.ld}" valueType="string"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.1944400820" name="Debug Level" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level" value="com.silabs.ide.si32.gcc.cdt.managedbuild.toolchain.debug.level.default" valueType="enumerated"/>
+							<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript.1354877338" name="Use custom linker script" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.usescript" value="true" valueType="boolean"/>
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;org.eclipse.cdt.core.GNU_ELF;com.silabs.ss.framework.debugger.core.BIN;com.silabs.ss.framework.debugger.core.HEX;com.silabs.ss.framework.debugger.core.S37;com.silabs.ss.framework.debugger.core.EBL;com.silabs.ss.framework.debugger.core.GBL" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base.1707800712" isAbstract="false" name="Debug Platform" osList="win32,linux,macosx" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/bleMoistureSensor3}/GNU ARM v4.9.3 - Default" id="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base.124308903" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Si32 GNU ARM Builder" parallelBuildOn="true" parallelizationNumber="optimal" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.397831232" name="GNU ARM C Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.905957939" name="C Language Dialect" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.misc.dialect.c99" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type.924362464" name="Floating-Point ABI" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.floatingpoint.type" value="floatingpoint.type.softfp" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.804385284" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/halconfig}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG1B/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/halconfig/inc/hal-config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG1B/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/EFR32BG1_BRD4300A/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/soc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/tempdrv/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/gpiointerrupt/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/uartdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG1B/Source/GCC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app/bluetooth/common/stack_bridge}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/tempdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/chip/efr32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols.967183884" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__HEAP_SIZE=0xD00"/>
+									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="__STACK_SIZE=0x800"/>
+									<listOptionValue builtIn="false" value="EFR32BG1B232F256GM48=1"/>
+								</option>
+								<inputType id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.842047525" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base.2130060010" name="GNU ARM C++ Compiler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.compiler.base"/>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base.1851979355" name="GNU ARM Assembler" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags.388065337" name="Assembler flags" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.flags" value="-c -x assembler-with-cpp -mfpu=fpv4-sp-d16 -mfloat-abi=softfp" valueType="string"/>
+								<option id="gnu.both.asm.option.include.paths.947163229" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/CMSIS/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/halconfig}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG1B/Include}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/common/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/halconfig/inc/hal-config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emlib/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG1B/Source}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/EFR32BG1_BRD4300A/config}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/protocol/bluetooth/ble_stack/inc/soc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader/api}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/bsp}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/tempdrv/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/sleep/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/gpiointerrupt/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/uartdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/common}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/hardware/kit/common/drivers}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/Device/SiliconLabs/EFR32BG1B/Source/GCC}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/app/bluetooth/common/stack_bridge}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/emdrv/tempdrv/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/radio/rail_lib/chip/efr32}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/platform/bootloader}&quot;"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols.1273282410" name="Defined symbols (-D)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.as.def.symbols" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="__HEAP_SIZE=0xD00"/>
+									<listOptionValue builtIn="false" value="HAL_CONFIG=1"/>
+									<listOptionValue builtIn="false" value="__STACK_SIZE=0x800"/>
+									<listOptionValue builtIn="false" value="EFR32BG1B232F256GM48=1"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.enable.759881856" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.enable" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.type.1078430812" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.assembler.floatingpoint.type" value="floatingpoint.type.softfp" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.2058076870" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base.344856114" name="GNU ARM C Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.base">
+								<option id="gnu.c.link.option.userobjs.1293300086" name="Other objects" superClass="gnu.c.link.option.userobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg1_gcc_release.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/binapploader.o}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/libpsstore.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/libmbedtls.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/libbluetooth.a}"/>
+								</option>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type.1125557740" name="Floating-Point ABI" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.floatingpoint.type" value="floatingpoint.type.softfp" valueType="enumerated"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency.1725121074" name="Use library file circular dependency" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.circulardependency" value="true" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs.148517638" name="No startup or default libs (-nostdlib)" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nostdlibs" value="false" valueType="boolean"/>
+								<option id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs.806702540" name="C Library" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.clibs" value="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.linker.nanospec" valueType="enumerated"/>
+								<option id="gnu.c.link.option.libs.1980299100" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.248754058" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base.1950428799" name="GNU ARM C++ Linker" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.userobjs.1111122341" name="Other objects" superClass="gnu.cpp.link.option.userobjs" valueType="userObjs">
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/platform/radio/rail_lib/autogen/librail_release/librail_efr32xg1_gcc_release.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/binapploader.o}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/libpsstore.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/libmbedtls.a}"/>
+									<listOptionValue builtIn="false" value="${workspace_loc:/${ProjName}/protocol/bluetooth/lib/EFR32BG1B/GCC/libbluetooth.a}"/>
+								</option>
+							</tool>
+							<tool id="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base.1320359670" name="GNU ARM Archiver" superClass="com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.archiver.base"/>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule generalProj.esf.protocolIds="com.silabs.sdk.stack.super:2.2.2._897871742.com.silabs.stack.ble:2.8.1.0_-833210850" generalProj.esf.protocolNames="ble" moduleId="com.silabs.ss.framework.ide.project.core.cpp" project.generation="122" projectCommon.boardIds="brd4300a:0.0.0.A03" projectCommon.buildArtifactType="EXE" projectCommon.partId="mcu.arm.efr32.bg1.efr32bg1b232f256gm48" projectCommon.sdkId="com.silabs.sdk.stack.super:2.2.2._897871742"/>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="bleMoistureSensor3.com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType.1390132383" name="SLS CDT Project" projectType="com.silabs.ss.framework.ide.project.core.cdt.cdtMbsProjectType"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529;com.silabs.ss.framework.project.toolchain.core.default#com.silabs.ss.tool.ide.arm.toolchain.gnu.cdt:4.9.3.20150529.;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.base.397831232;com.silabs.ide.si32.gcc.cdt.managedbuild.tool.gnu.c.compiler.input.842047525">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>

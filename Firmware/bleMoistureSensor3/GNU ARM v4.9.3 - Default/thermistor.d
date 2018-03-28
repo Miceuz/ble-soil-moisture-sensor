@@ -1,0 +1,1 @@
+thermistor.o: ../thermistor.c

@@ -1,0 +1,12 @@
+// Copyright 2018 Silicon Laboratories, Inc.
+//
+//
+
+Executing: bgbuild (/home/miceuz/SimplicityStudio_v4/developer/sdks/gecko_sdk_suite/v2.2/protocol/bluetooth/bin/bgbuild)
+Standard output
+ALL OK
+
+Error/Warning output
+WARNING: 2a29 length attribute is 12 but actual value length is 18. 12 will be used.
+
+

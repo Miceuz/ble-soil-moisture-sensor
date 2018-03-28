@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<model:MDescriptors xmlns:model="http://www.silabs.com/ss/Studio.ecore">
+  <descriptors name="%MAIN.CACHE.SETTINGS%">
+    <properties key="cacheFileList" value="/home/miceuz/Xaltura/ble-soil-moisture-sensor/Firmware/.metadata/.cache/com.silabs.ss.framework.project.toolchain.core-toolchainManager.cache/registryCachedDescriptorsSettings,&#xA;/home/miceuz/Xaltura/ble-soil-moisture-sensor/Firmware/.metadata/.cache/com.silabs.ss.framework.project.toolchain.core-toolchainManager.cache/registryCachedDescriptors"/>
+  </descriptors>
+</model:MDescriptors>
